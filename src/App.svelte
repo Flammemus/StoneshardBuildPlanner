@@ -1,5 +1,5 @@
 <script>
-  import Counter from './lib/Counter.svelte'
+  import StrengthStat from './lib/StrengthStat.svelte';
 </script>
 
 <main>
@@ -14,52 +14,8 @@
 
             </div>
             <div class="characterLevelContainer2">
-              <!-- Attributes for character: Strength, Agility etc -->
 
-              <div class="attributeCardContainer">
-                <div class="attributeCardLeft">
-                  <span class="attributeText">Strength</span>
-                </div>
-                <div class="attributeCardRight">
-                  <span class="attributeText" id="attributeNumber">11</span>
-                </div>
-              </div>
-
-              <div class="attributeCardContainer">
-                <div class="attributeCardLeft">
-                  <span class="attributeText">Agility</span>
-                </div>
-                <div class="attributeCardRight">
-                  <span class="attributeText" id="attributeNumber">11</span>
-                </div>
-              </div>
-
-              <div class="attributeCardContainer">
-                <div class="attributeCardLeft">
-                  <span class="attributeText">Perception</span>
-                </div>
-                <div class="attributeCardRight">
-                  <span class="attributeText" id="attributeNumber">11</span>
-                </div>
-              </div>
-
-              <div class="attributeCardContainer">
-                <div class="attributeCardLeft">
-                  <span class="attributeText">Vitality</span>
-                </div>
-                <div class="attributeCardRight">
-                  <span class="attributeText" id="attributeNumber">10</span>
-                </div>
-              </div>
-
-              <div class="attributeCardContainer">
-                <div class="attributeCardLeft">
-                  <span class="attributeText">Willpower</span>
-                </div>
-                <div class="attributeCardRight">
-                  <span class="attributeText" id="attributeNumber">10</span>
-                </div>
-              </div>
+              <StrengthStat/>
 
             </div>
           </div>
@@ -70,6 +26,7 @@
         <div class="characterBackground" id="characterBackgroundBottom"></div>
       </div>
     </div>
+
     <div class="skillsMain">
 
     </div>
